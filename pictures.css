@@ -1,0 +1,43 @@
+.image3:hover{
+    transform: rotate(45deg);
+}
+.image5:hover{
+    transform: scale(2);
+}
+@keyframes translate {
+    0% {transform: translate(30px, -30px);}
+  25%  {transform: translate(60px, -60px)}
+  50%  {transform: translate(90px, -90px);}
+  100% {transform: translate(120px, -120px);}    
+}
+.image1
+{
+    animation-name: translate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotation {
+    0% {transform: rotate(45deg);}
+  25%  {transform: rotate(90deg);}
+  50%  {transform: rotate(135deg);}
+  100% {transform: rotate(180deg);}    
+}
+.image4:hover
+{
+    animation-name: rotation;
+    animation-duration: 4s;
+}
+.image2:hover{
+    transform: skew(50deg, -15deg);
+    filter: grayscale(100%)
+}
+.image6
+{
+    animation-name: rotation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.image7:hover{
+    transform: scale(2);
+    filter: grayscale(100%)
+}
